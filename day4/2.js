@@ -29,8 +29,12 @@ let info={
 }
 
 let y={...info, isHere:"Yes"};
+
+let z={...info,...y}
 info['age']=30
 
 console.log(info)
 console.log(y)
+
+console.log(z)
 
