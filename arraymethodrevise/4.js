@@ -15,5 +15,7 @@ log(b)
 
 //find
 const list=[1,2,3,4,5]
-const r=list.find(result=> result>5)
+const r=list.find(result=> result>4)
+const rindex=list.findIndex(result=> result>5)
 log(r)
+log(rindex)
