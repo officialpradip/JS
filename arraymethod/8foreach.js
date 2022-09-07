@@ -26,3 +26,4 @@ let everynotexpensive=items.every(function(p){
     return p.price<50
 })
 log(everynotexpensive)
+

@@ -6,5 +6,6 @@ const students=[
 ]
 
 const sortage=students.sort((a,b)=> a.age-b.age)
+
 console.log(sortage)
 
